@@ -20,7 +20,7 @@ window.addEventListener("resize", resizeCanvas);
 for (let i = 1; i <= frameCount; i++) {
   const img = new Image();
   const frameNumber = String(i).padStart(3, "0");
-  img.src = `images/ezgif-frame-${frameNumber}.png`;
+  img.src = `images/ezgif-frame-${frameNumber}.jpg`;
   img.onload = () => {
     loadedImages++;
     if (loadedImages === frameCount) {
